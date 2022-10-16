@@ -1,0 +1,25 @@
+.RightMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+@media screen and (max-width:1210px){
+    .RightMain{
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .RightMain{
+        width: 100%;
+        margin-top: 0;
+    }
+    .RightMain>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
